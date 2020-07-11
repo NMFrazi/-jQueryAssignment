@@ -1,0 +1,71 @@
+body {
+	background-image: url("images\background_img.jpg");
+  background-repeat: repeat;
+	}
+	h1 {
+	text-align: center;
+	font-weight: 700;
+	font-size: 4.5rem;
+	font-family: 'Arial';
+	margin: 10px 20px;
+	
+	}
+	h4 {
+	font-size: 30px;
+	font-family: 'Arial';
+	}
+	.instructions {
+	text-align: center;
+	line-height: 2.0;
+	font-family: 'Arial';
+	width: 70%;
+	background: rgba(255, 255, 255, 0.5);
+	margin: 0 auto;
+	border: solid 1px black;
+	border-radius: 24px;
+	padding: 20px;
+	}
+	.total-score{
+	font-size: 2.5rem;
+	text-align: center;
+	padding: 10px;
+	font-family: '';
+	}
+	
+	.score{
+	text-align: center;
+	font-family: 'Arial';
+	}
+	.wins {
+	display: inline-block;
+	padding: 60px;
+	font-size: 16px;
+	}
+	.losses{
+	display: inline-block;
+	padding: 60px;
+	font-size: 16px;
+	}
+	.gemsContainer {
+	text-align: center;
+	}
+	
+	@media (max-width: 480px){
+	.instructions{
+	width: 90%;
+	}
+	#redGem{
+	width: 50px;
+	}
+	#blueGem{
+	width: 50px;
+	}
+	#greenGem{
+	width: 50px;
+	}
+	#yellowGem{
+	width: 50px;
+	}
+	h1 {
+	font-size: 40px;
+	}
